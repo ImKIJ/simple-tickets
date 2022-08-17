@@ -1,0 +1,16 @@
+{
+  "name": "template-v14",
+  "author": "ImKIJ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1",
+    "enmap": "^5.9.0",
+    "walk": "^2.3.15"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-cmds.js"
+  }
+}
